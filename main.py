@@ -54,9 +54,9 @@ async def run_tweet_process():
     while True:
       try:
         if return_with_delay:
-           await asyncio.sleep(30)
+           await asyncio.sleep(3600)
         else:
-           await asyncio.sleep(3) # wait a tiny delay, so we dont ratelimit as harder!
+           await asyncio.sleep(5) # wait a tiny delay, so we dont ratelimit as harder!
            return_with_delay = True
            pass
 
