@@ -8,7 +8,7 @@ Twitter page: https://twitter.com/PetsHourly
 
 ## Installation & Usage
 
-**It is recommended to create a virtual environment, learn more [here](https://docs.python.org/3/library/venv.html)
+**It is recommended to create a virtual environment, learn more [here](https://docs.python.org/3/library/venv.html)**
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary packages for this project.
 
