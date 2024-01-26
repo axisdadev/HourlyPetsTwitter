@@ -61,7 +61,7 @@ async def run_tweet_process():
            pass
 
         # then unpause the thread, continue as normal...
-        logger.info("Starting the tweet process! (1/6)")
+        logger.info("Starting the tweet process! (1/5)")
 
         function_choices = [
            helpers.apis.call_dog_api,
@@ -78,8 +78,8 @@ async def run_tweet_process():
 
         download_image = await helpers.apis.download_image(image_url)
 
-        logger.info("Downloaded, no issues raised (3/6) ✓")
-        logger.info("Uploading media to twitter... (4/6)")
+        logger.info("Downloaded, no issues raised (3/5) ✓")
+        logger.info("Uploading media to twitter... (4/5)")
 
         upload_media = await upload_twitter_media("save.png")
 
@@ -93,7 +93,7 @@ async def run_tweet_process():
         post_tweet = client.create_tweet(text=f"Heres your hourly pet picture! 🐶🐈🕒\n\n 🕒Time (EST): {current_time_12h}\n\n 🔗 Image link: {image_url}", media_ids=[upload_media.media_id])
 
         logger.info("Sucesfully posted to page! (5/5) ✓")
-        logger.warn("Restarting wait!...")
+        logger.warn("Cycle completed, restarting. ✓")
       except Exception as e:
         logger.critical(e)
         return_with_delay = False
