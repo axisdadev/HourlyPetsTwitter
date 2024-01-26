@@ -29,7 +29,7 @@ OTHER-API-TOKEN:
 ```
 
 Put all of your credentials here, the ``OTHER-API-TOKEN`` should be the same as your original API key.
-
+ 
 Once complete, run the  command
 
 ```bash
