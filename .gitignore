@@ -1,11 +1,9 @@
 # Ignore compiled Python files
 *.pyc
-
 # Ignore Cython-generated files
 *.pxd
-
 # Ignore hash files
 *.hash
-
+*.yml
 # Ignore virtual environment
 venv/

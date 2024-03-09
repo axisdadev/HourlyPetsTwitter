@@ -90,7 +90,7 @@ async def run_tweet_process():
         time_now = datetime.now(est_timezone)
         current_time_12h = time_now.strftime("%I:%M %p")
 
-        post_tweet = client.create_tweet(text=f"Heres your hourly pet picture! 🐶🐈🕒\n\n 🕒Time (EST): {current_time_12h}\n\n 🔗 Image link: {image_url}", media_ids=[upload_media.media_id])
+        post_tweet = client.create_tweet(text=f"Heres your hourly pet picture! 🐶🐈🕒\n\n 🕒Time (EST): {current_time_12h}\n\n 🔗 Image link: {image_url}", media_ids=[upload_media.media_id]) # type: ignore
 
         logger.info("Sucesfully posted to page! (5/5) ✓")
         logger.warn("Cycle completed, restarting. ✓")
