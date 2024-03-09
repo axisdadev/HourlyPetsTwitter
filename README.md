@@ -2,6 +2,8 @@
 
 ![Static Badge](https://img.shields.io/badge/Tweepy.py-1DA1F2)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tweepy)
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/HourlyPets)
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/axisdadev)
 
 
 Hourly pets twitter is a Twitter bot, coded in python that posts a picture of a furry friend every hour! Simple as that! Images are grabbed from the [Dog](https://dog.ceo) & [Cat](https://thecatapi.com) API.
