@@ -1,6 +1,7 @@
 # Hourly Pets Twitter
 
 ![Static Badge](https://img.shields.io/badge/Tweepy.py-1DA1F2)
+![Static Badge](https://img.shields.io/badge/Python-3.11.6-1DA1F2)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tweepy)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/HourlyPets)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/axisdadev)
